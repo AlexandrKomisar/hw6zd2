@@ -1,0 +1,50 @@
+body {
+  background-color: #3b3f45;
+  font-size: 25px;
+}
+
+.app-header {
+  background-color: #4a4f56;
+  color: #d16d7b;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+.app-section {
+  padding-left: 15%;
+  padding-right: 15%;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  background-color: #88839e;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+}
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+span {
+  font-size: 15px;
+  color: #cbc3c7;
+}
+li:nth-child(even) {
+  background-color: #7a7593;
+}
+li:hover {
+  border: 3px #ffffff;
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+li::before {
+  text-decoration-line: line-through;
+}
+.app-bon {
+  background-color: #4a4f56;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #d16d7b;
+  text-align: center;
+}
